@@ -9,11 +9,7 @@
   "server": "nodemon server.js",
   "start": "node server.js",
   "dev": "nodemon server.js",
-  "build": "npm install && npm run lint", 
-  "lint": "eslint .",
-  "lint:fix": "eslint . --fix",
-  "prod": "NODE_ENV=production node server.js",
-  "seed": "node seeder.js"
+  "build": "npm install && npm run lint"
 },
   "author": "Techinfoyt",
   "license": "ISC",
